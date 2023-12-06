@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url('gd-group-discussion-tips.jpg');
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-size: cover;
+  color: #fff;
+  padding: 10% 10%;
+}
+
+.container h5{
+  margin-top: ;
+  font-size: 30px;
+  font-weight: 400;
+}
+.container h2{
+  margin-top: 5%;
+  font-size: 35px;
+    
+}
+.container p{
+  margin-top:5%;
+  font-size: px;
+  font-weight: 200;
+}
+
+form button {
+font-size: 14.8px;
+padding: 10px;
+border-radius: 2px;
+background-color: rgb(25, 92, 25);
+margin-left: -5px;
+border: 0;
+outline: 0;
+}
+
+form{
+  margin-top: 30px;
+}
+
+form input{
+  padding: 8px;
+}
+
+.email-text p{
+font-size:12px;
+font-weight: 100;
+margin-top: 0;
+color: rgb(3, 170, 3);
+}
+
+
+
+
+

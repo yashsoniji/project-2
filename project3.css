@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 80.7%;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+}
+.nav {
+    text-align: center;
+margin-top: -80px;
+}
+.nav button{
+    padding: 5px;
+    font-size: 20px;
+}

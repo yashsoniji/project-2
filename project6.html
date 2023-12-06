@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project6.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="box">
+
+          <div class="text-area" id="text-area">
+            <input type="text" placeholder="password" id="text-area"/>
+          </div>
+
+          <div class="labels">
+          password length<input    type="number" id="total-char" max="30" min="2" value="10"/>
+          </div>
+
+          <div  class="labels" for="uppercase">Contains Uppercase</label>
+            <input type="checkbox" name="uppercase" id="uppercase" />
+          </div>
+
+          <div class="labels">
+            <label for="lowercase">Contains
+            Lowercase</label>
+            <input type="checkbox" name="lowercase" id="lowercase" />
+          </div>
+
+          <div class="labels">
+            <label for="numbers">Contains Numbers</label>
+            <input type="checkbox" name="numbers" id="number" />
+          </div>
+
+          <div class="labels">
+            <label for="symbols">Contains  Symbols</label>
+            <input type="checkbox" name="symbols" id="symbol" />
+          </div>
+
+          <div class="btn">
+            <button id="btn">Generate</button>
+          </div>
+         </div>
+      </div>
+    </div>
+    <script src="project6.js"></script>
+  </body>
+</html>

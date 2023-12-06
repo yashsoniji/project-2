@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c5077;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+#btn {
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.popup-box {
+  display: grid;
+  place-items: center;
+  text-transform: capitalize;
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  width: 400px;
+  visibility: hidden;
+  transform: scale(0.1);
+  top: 0;
+  transition: transform 0.4s, top 0.3s ease-in-out;
+}
+.open-popup {
+  visibility: visible;
+  top: 30%;
+  transform: scale(0.5);
+}
+
+.popup-box img {
+  width: 100px;
+  position: relative;
+  top: -40px;
+  border-radius: 50%;
+}
+
+.popup-content {
+  text-align: center;
+  padding: 10px;
+}
+
+.popup-content button {
+  width: 90%;
+  background-color: rgb(62, 165, 62);
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 200px) {
+  .popup-box {
+    width: 300px;
+  }
+  @media only screen and (max-width: 1216px) {
+    .popup-box {
+      transform: scale(0.5);
+      transition: transform 0.4s, top 0.3s;
+      top: 40%;
+    }
+  }
+  @media only screen and (max-width: 161px) {
+    .popup-box {
+      width: 150px;
+    }
+  }
+  @media only screen and (max-width: 2432px) {
+    .open-popup {
+      transform: scale(0.5);
+      transition: transform 0.4s, top 0.3s;
+      top: 40%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(65, 32, 96);
+}
+
+.container{
+    background: #fff;
+    width: 300px;
+    max-width: 500px;
+    border-radius: 5px;
+    padding:10px 20px ;
+    margin: 300px auto;
+    user-select: none;
+}
+
+#password{
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+#icons{
+    margin-left: 50px;
+    cursor: pointer;
+
+}
+
+
+ 

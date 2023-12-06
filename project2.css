@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15rem;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+nav ul :hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.background{
+display: grid;
+place-items: center;
+}
+
+.button{
+display:flex ;
+justify-content: center;
+margin-top: 20px;
+}
+.container h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+}
+    
+    
+
+

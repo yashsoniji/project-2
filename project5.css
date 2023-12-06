@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+p{
+    font-size: 18px;
+}
+input{
+    font-size: 18px;
+}
+.main button{
+    background-color: rgb(62, 192, 244);
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2.5px;
+    font-weight: 300;    
+}

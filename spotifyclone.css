@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #0d0c0a;
+  color: #fff;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  font-size: 12px;
+}
+
+nav ul img {
+  width: 25px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#spotify {
+  font-family: 'Ubuntu', sans-serif;
+  margin-left: -15px;
+  font-size: 25px;
+}
+
+.container {
+  min-height: 72vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  padding: 34px;
+  border-radius: 12px;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/420/906/346/dark-headphones-sad-wallpaper-preview.jpg');
+  box-sizing: border-box;
+}
+
+.bottom {
+  position: sticky;
+  background-color: #000;
+  height: 130px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myProgressBar {
+  width: 80vw;
+}
+
+.bottom i {
+  margin-top: 12px;
+}
+
+.songItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 540;
+  background: #fff;
+  color: #000;
+  margin: 23px 0px;
+  border-radius: 50px;
+  width: 80%;
+}
+
+.songItem img {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.songListplay,
+img {
+  padding: 5px;
+}
+
+.songItem i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+}
+.songitemcontainer {
+  margin-top: 30px;
+}

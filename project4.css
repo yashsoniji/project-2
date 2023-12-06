@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Ubuntu', sans-serif;
+    
+}
+body{
+    background-color: rgb(212, 217, 216);
+}
+
+.tittle {
+    text-align: center;
+    color: rgb(20, 34, 57);
+    font-weight: 500;
+    font-size: 30px;
+}
+.tittle h1{
+    text-decoration: underline;
+    text-decoration-color:rgb(156, 255, 255) ;
+}
+
+.review{
+    background-color: white;
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow:1px 1PX 4px 1px grey ;
+    border-radius: 10px; 
+}
+.review ,i{
+    display: grid;
+    place-items: center;
+}
+
+.box-imgs img{
+    /* margin-top: 20px; */
+    max-width:200px;
+    border-radius: 100px;
+    height:200px;
+}
+.box-imgs i{
+    /* margin-top: 20px; */
+    font-size: 40px;
+}
+.box-content{
+    text-align: center;
+    overflow: hidden;
+}
+#author{
+    font-weight: 80;
+    letter-spacing:3px;
+
+    /* margin-top: -50px; */
+    margin-bottom: 20px;
+}
+#job{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:rgb(1, 82, 114) ;
+}
+
+.box-btn{
+    word-spacing:10px;
+}
+button{
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.newbox,#boxfirst{
+    position:absolute;
+    overflow: hidden;
+}
+.newbox{
+    display: none;
+}
